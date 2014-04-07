@@ -1,0 +1,42 @@
+.container {
+	z-index: 10;
+	position: relative;
+}
+.row {
+	z-index: 10;
+}
+
+#footer {
+	z-index: 1;
+	width: 100%;
+	margin-top: 75px;
+}
+
+.jumbotron {
+	padding: 45px, 30px 30px 30px;
+	margin-bottom: 30px;
+	color: #fff;
+	text-shadow: 1px 1px 4px #000;
+	background-color: #666;
+	background-image: url(../images/blurry_bg-03.jpg);
+	background-position: 60% center;
+}
+
+.alert {
+	margin: 0.5em 0.5em 0 0.5em;
+	/*border-radius: 0;*/
+}
+
+.alert-dismissable {
+	cursor: pointer;
+}
+
+#system_alerts {
+	opacity: 0.9;
+	z-index: 1000;
+	position: fixed;
+	top: 45px;
+	left: 0;
+	width: 100%;
+	padding: 0 13% 0 13%;
+}
